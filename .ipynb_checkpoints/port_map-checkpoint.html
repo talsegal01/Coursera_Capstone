@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e271d16e7494026ab2c5134cd651de6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9e271d16e7494026ab2c5134cd651de6" ></div>
+        
+</body>
+<script>    
+    
+            var map_9e271d16e7494026ab2c5134cd651de6 = L.map(
+                "map_9e271d16e7494026ab2c5134cd651de6",
+                {
+                    center: [45.5202471, -122.6741949],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_faff32afaef54f60870125f6bfdec3b6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+            var circle_marker_d9ce8b9f0aa54e28a3b28f6507e08e00 = L.circleMarker(
+                [45.5249344, -122.6735157],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_d3ddeb958f4b4379bc50808c84f9273e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd00c2062ed456fb8c138d03cb30a5c = $(`<div id="html_9cd00c2062ed456fb8c138d03cb30a5c" style="width: 100.0%; height: 100.0%;">Old Town Chinatown, Northwest Portland</div>`)[0];
+            popup_d3ddeb958f4b4379bc50808c84f9273e.setContent(html_9cd00c2062ed456fb8c138d03cb30a5c);
+        
+
+        circle_marker_d9ce8b9f0aa54e28a3b28f6507e08e00.bindPopup(popup_d3ddeb958f4b4379bc50808c84f9273e)
+        ;
+
+        
+    
+    
+            var circle_marker_913fb5f979fe45de96adc17577920464 = L.circleMarker(
+                [45.5051557, -122.6108498],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_977b04a515d84e65b0699231c7a70c00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28316cfbce0c4360ba68821867765be3 = $(`<div id="html_28316cfbce0c4360ba68821867765be3" style="width: 100.0%; height: 100.0%;">Northwest, Northwest Portland</div>`)[0];
+            popup_977b04a515d84e65b0699231c7a70c00.setContent(html_28316cfbce0c4360ba68821867765be3);
+        
+
+        circle_marker_913fb5f979fe45de96adc17577920464.bindPopup(popup_977b04a515d84e65b0699231c7a70c00)
+        ;
+
+        
+    
+    
+            var circle_marker_1059f032c4c74b82b7d66a023683b82c = L.circleMarker(
+                [45.5505285, -122.7220048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_ed383fb436f34eddab21ddc49b6bca0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97aed4c0b5c040019caa5e8acf0d0194 = $(`<div id="html_97aed4c0b5c040019caa5e8acf0d0194" style="width: 100.0%; height: 100.0%;">Northwest Industrial, Northwest Portland</div>`)[0];
+            popup_ed383fb436f34eddab21ddc49b6bca0b.setContent(html_97aed4c0b5c040019caa5e8acf0d0194);
+        
+
+        circle_marker_1059f032c4c74b82b7d66a023683b82c.bindPopup(popup_ed383fb436f34eddab21ddc49b6bca0b)
+        ;
+
+        
+    
+    
+            var circle_marker_840b4c82dedd40c8a4041483f8bb235b = L.circleMarker(
+                [45.6003301, -122.7867791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_68f50c09d1f0470bbac5ef79d8fbf591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c53f45c8fbe4046b6f766d3edfa270a = $(`<div id="html_1c53f45c8fbe4046b6f766d3edfa270a" style="width: 100.0%; height: 100.0%;">Linnton, Northwest Portland</div>`)[0];
+            popup_68f50c09d1f0470bbac5ef79d8fbf591.setContent(html_1c53f45c8fbe4046b6f766d3edfa270a);
+        
+
+        circle_marker_840b4c82dedd40c8a4041483f8bb235b.bindPopup(popup_68f50c09d1f0470bbac5ef79d8fbf591)
+        ;
+
+        
+    
+    
+            var circle_marker_830696c9e6b74233b7e9fb8d6cdcbcb4 = L.circleMarker(
+                [45.5274391, -122.7131197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_ff3920a49eb44d5f8d20c72533d1987f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7db4244adab49cda5cc93f26df14161 = $(`<div id="html_f7db4244adab49cda5cc93f26df14161" style="width: 100.0%; height: 100.0%;">Hillside, Northwest Portland</div>`)[0];
+            popup_ff3920a49eb44d5f8d20c72533d1987f.setContent(html_f7db4244adab49cda5cc93f26df14161);
+        
+
+        circle_marker_830696c9e6b74233b7e9fb8d6cdcbcb4.bindPopup(popup_ff3920a49eb44d5f8d20c72533d1987f)
+        ;
+
+        
+    
+    
+            var circle_marker_d56036ab105240e7bf16142999cf05df = L.circleMarker(
+                [45.5613759, -122.7584579],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_f4a73862496345eb89a3714ced92e782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba60f8f7ca534766a1c22e52b3c26166 = $(`<div id="html_ba60f8f7ca534766a1c22e52b3c26166" style="width: 100.0%; height: 100.0%;">Forest Park, Northwest Portland</div>`)[0];
+            popup_f4a73862496345eb89a3714ced92e782.setContent(html_ba60f8f7ca534766a1c22e52b3c26166);
+        
+
+        circle_marker_d56036ab105240e7bf16142999cf05df.bindPopup(popup_f4a73862496345eb89a3714ced92e782)
+        ;
+
+        
+    
+    
+            var circle_marker_23c8b745757c4a41aad01ab3e9d90fee = L.circleMarker(
+                [45.540806, -122.7743539],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9e271d16e7494026ab2c5134cd651de6);
+        
+    
+        var popup_c178dfbf288d4071800146aacf3ca056 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff235a9c23a4b939d1f5644498174f1 = $(`<div id="html_4ff235a9c23a4b939d1f5644498174f1" style="width: 100.0%; height: 100.0%;">Northwest Heights, Northwest Portland</div>`)[0];
+            popup_c178dfbf288d4071800146aacf3ca056.setContent(html_4ff235a9c23a4b939d1f5644498174f1);
+        
+
+        circle_marker_23c8b745757c4a41aad01ab3e9d90fee.bindPopup(popup_c178dfbf288d4071800146aacf3ca056)
+        ;
+
+        
+    
+</script>
